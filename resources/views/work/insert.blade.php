@@ -6,7 +6,7 @@ This is | Insertpage
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 mx-auto">
+            <div class="col-lg-8 mx-auto">
                 <div class="card mt-3">
                     <div class="card-body">
                         <h4 class="lead text-center">CREATE YOUR POST HERE-</h4>

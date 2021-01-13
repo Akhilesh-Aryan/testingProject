@@ -12,11 +12,11 @@
 
 <body>
     <nav class="navbar navbar-expand navbar-dark bg-secondary">
-        <div class="container">
-        <a class="navbar-brand" href="/"><h4 class="text-white">BLogger</h4></a>
+        <div class="container-fluid">
+        <a class="navbar-brand ml-5" href="/"><h4 class="text-white">BLogger</h4></a>
         <form action="{{route('post.index')}}" method="GET" class="form-inline mx-auto">
-            <div class="input-group">
-                <input type="search" name="search" class="form-control ml-5" size="70">
+            <div class="input-group ml-4">
+                <input type="search" name="search" class="form-control ml-5" size="67">
                 <div class="input-group-append">
                     <button type="submit" class="btn btn-info">
                         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor"  xmlns="http://www.w3.org/2000/svg">
@@ -27,7 +27,7 @@
                 </div>
             </div>
         </form>
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto mr-5">
             <li class="nav-item"><a href="{{route('post.index')}}" class="nav-link">Home</a></li>
             @auth
             <li class="nav-item"><a href="{{route('post.create')}}" class="nav-link">Insert</a></li>
